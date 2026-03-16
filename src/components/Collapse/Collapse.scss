@@ -1,0 +1,41 @@
+.collapse {
+  width: 100%;
+  margin-bottom: 20px;
+
+  &__header {
+    width: 100%;
+    background-color: #FF6060;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  &__titre {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  &__fleche {
+    color: white;
+    font-size: 20px;
+    transition: transform 0.3s ease;
+    transform: rotate(180deg);
+
+    &--ouvert {
+      transform: rotate(0deg);
+    }
+  }
+
+  &__contenu {
+    background-color: #f6f6f6;
+    border-radius: 0 0 5px 5px;
+    padding: 20px;
+    color: #000000;
+    font-size: 16px;
+  }
+}
