@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useParams, useNavigate } from 'react-router-dom'
 import logements from '../../data/logements.json'
 import Collapse from '../../components/Collapse/Collapse'
@@ -52,6 +53,10 @@ function Logement() {
       </div>
     </div>
   )
+=======
+function Logement() {
+  return <h1>Page Logement</h1>
+>>>>>>> cac815eb84b7fce305773329636de0a15cffa9e3
 }
 
 export default Logement

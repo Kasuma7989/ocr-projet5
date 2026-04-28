@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> cac815eb84b7fce305773329636de0a15cffa9e3
 import { Link } from 'react-router-dom'
 import './Card.scss'
 
